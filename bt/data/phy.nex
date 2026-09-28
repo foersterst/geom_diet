@@ -1,0 +1,757 @@
+#NEXUS
+[R-package APE, Mon Mar 17 22:44:04 2025]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 372;
+	TAXLABELS
+		STER_Cyclophora_pendularia
+		STER_Cyclophora_albipunctata
+		STER_Cyclophora_annularia
+		STER_Cyclophora_porata
+		STER_Cyclophora_linearia
+		STER_Cyclophora_quercimontaria
+		STER_Cyclophora_punctaria
+		STER_Cyclophora_pupillaria
+		STER_Timandra_comae
+		STER_Timandra_griseata
+		STER_Lythria_purpuraria
+		STER_Lythria_cruentaria
+		STER_Idaea_serpentata
+		STER_Idaea_ochrata
+		STER_Idaea_muricata
+		STER_Idaea_sylvestraria
+		STER_Idaea_seriata
+		STER_Idaea_emarginata
+		STER_Idaea_aversata
+		STER_Idaea_straminata
+		STER_Idaea_deversaria
+		STER_Idaea_subsericeata
+		STER_Idaea_pallidata
+		STER_Idaea_rusticata
+		STER_Idaea_dilutaria
+		STER_Idaea_fuscovenosa
+		STER_Idaea_humiliata
+		STER_Idaea_dimidiata
+		STER_Idaea_trigeminata
+		STER_Idaea_biselata
+		STER_Scopula_immorata
+		STER_Scopula_virgulata
+		STER_Scopula_corrivalaria
+		STER_Scopula_caricaria
+		STER_Scopula_nemoraria
+		STER_Scopula_umbelaria
+		STER_Scopula_nigropunctata
+		STER_Scopula_rubiginata
+		STER_Scopula_incanata
+		STER_Scopula_marginepunctata
+		STER_Scopula_floslactata
+		STER_Scopula_imitaria
+		STER_Scopula_frigidaria
+		STER_Scopula_ternata
+		STER_Scopula_emutaria
+		STER_Scopula_immutata
+		STER_Scopula_ornata
+		STER_Scopula_decorata
+		STER_Rhodostrophia_vibicaria
+		LARE_Phibalapteryx_virgata
+		LARE_Catarhoe_rubidata
+		LARE_Catarhoe_cuculata
+		LARE_Costaconvexa_polygrammata
+		LARE_Epirrhoe_hastulata
+		LARE_Epirrhoe_pupillata
+		LARE_Epirrhoe_tristata
+		LARE_Epirrhoe_alternata
+		LARE_Epirrhoe_tartuensis
+		LARE_Epirrhoe_rivata
+		LARE_Epirrhoe_galiata
+		LARE_Psychophora_sabini
+		LARE_Xanthorhoe_annotinata
+		LARE_Xanthorhoe_montanata
+		LARE_Xanthorhoe_decoloraria
+		LARE_Xanthorhoe_biriviata
+		LARE_Xanthorhoe_designata
+		LARE_Xanthorhoe_fluctuata
+		LARE_Xanthorhoe_spadicearia
+		LARE_Xanthorhoe_ferrugata
+		LARE_Xanthorhoe_abrasaria
+		LARE_Orthonama_vittata
+		LARE_Xanthorhoe_quadrifasiata
+		LARE_Camptogramma_bilineata
+		LARE_Euphyia_biangulata
+		LARE_Euphyia_unangulata
+		LARE_Scotopteryx_coarctaria
+		LARE_Scotopteryx_mucronata
+		LARE_Scotopteryx_luridata
+		LARE_Scotopteryx_moeniata
+		LARE_Scotopteryx_bipunctaria
+		LARE_Scotopteryx_chenopodiata
+		LARE_Earophila_badiata
+		LARE_Anticlea_derivata
+		LARE_Mesoleuca_albicillata
+		LARE_Entephria_polata
+		LARE_Entephria_byssata
+		LARE_Entephria_nobiliaria
+		LARE_Entephria_caesiata
+		LARE_Entephria_flavicinctata
+		LARE_Larentia_clavaria
+		LARE_Spargania_luctuata
+		LARE_Hydriomena_furcata
+		LARE_Hydriomena_impluviata
+		LARE_Hydriomena_ruberata
+		LARE_Pelurga_comitata
+		LARE_Cosmorhoe_ocellata
+		LARE_Lampropteryx_suffumata
+		LARE_Lampropteryx_otregiata
+		LARE_Colostygia_aptata
+		LARE_Colostygia_olivata
+		LARE_Colostygia_turbata
+		LARE_Colostygia_pectinataria
+		LARE_Heterothera_serraria
+		LARE_Pennithera_firmata
+		LARE_Thera_obeliscata
+		LARE_Thera_variata
+		LARE_Thera_britannica
+		LARE_Thera_cognata
+		LARE_Thera_juniperata
+		LARE_Dysstroma_citrata
+		LARE_Dysstroma_infuscata
+		LARE_Dysstroma_latefasciata
+		LARE_Dysstroma_truncata
+		LARE_Plemyria_rubiginata
+		LARE_Chloroclysta_siterata
+		LARE_Chloroclysta_miata
+		LARE_Cidaria_fulvata
+		LARE_Electrophaes_corylata
+		LARE_Eulithis_prunata
+		LARE_Eulithis_populata
+		LARE_Eulithis_testata
+		LARE_Eulithis_mellinata
+		LARE_Eulithis_pyropata
+		LARE_Gandaritis_pyraliata
+		LARE_Ecliptopera_silaceata
+		LARE_Ecliptopera_capitata
+		LARE_Eustroma_reticulata
+		LARE_Malacodea_regelaria
+		LARE_Operophtera_brumata
+		LARE_Operophtera_fagata
+		LARE_Epirrita_dilutata
+		LARE_Epirrita_christyi
+		LARE_Epirrita_autumnata
+		LARE_Baptria_tibiale
+		LARE_Philereme_vetulata
+		LARE_Philereme_transversata
+		LARE_Triphosa_dubitata
+		LARE_Rheumaptera_hastata
+		LARE_Rheumaptera_subhastata
+		LARE_Rheumaptera_undulata
+		LARE_Rheumaptera_cervinalis
+		LARE_Pareulype_berberata
+		LARE_Asthena_albulata
+		LARE_Asthena_anseraria
+		LARE_Euchoeca_nebulata
+		LARE_Hydrelia_sylvata
+		LARE_Venusia_blomeri
+		LARE_Venusia_cambrica
+		LARE_Hydrelia_flammeolaria
+		LARE_Coenocalpe_lapidata
+		LARE_Horisme_vitalbata
+		LARE_Horisme_tersata
+		LARE_Horisme_radicaria
+		LARE_Horisme_aquata
+		LARE_Horisme_corticata
+		LARE_Horisme_aemulata
+		LARE_Melanthia_procellata
+		LARE_Martania_taeniata
+		LARE_Gymnoscelis_rufifasciata
+		LARE_Chloroclystis_v-ata
+		LARE_Eupithecia_haworthiata
+		LARE_Eupithecia_tenuiata
+		LARE_Eupithecia_inturbata
+		LARE_Eupithecia_tripunctaria
+		LARE_Eupithecia_lariciata
+		LARE_Eupithecia_virgaureata
+		LARE_Eupithecia_groenblomi
+		LARE_Eupithecia_tantillaria
+		LARE_Eupithecia_lanceata
+		LARE_Eupithecia_subumbrata
+		LARE_Eupithecia_orphnata
+		LARE_Eupithecia_subfuscata
+		LARE_Eupithecia_denotata
+		LARE_Eupithecia_millefoliata
+		LARE_Eupithecia_icterata
+		LARE_Eupithecia_succenturiata
+		LARE_Eupithecia_linariata
+		LARE_Eupithecia_pulchellata
+		LARE_Eupithecia_pyreneata
+		LARE_Eupithecia_plumbeolata
+		LARE_Eupithecia_pygmaeata
+		LARE_Eupithecia_fennoscandica
+		LARE_Eupithecia_venosata
+		LARE_Eupithecia_irriguata
+		LARE_Eupithecia_insigniata
+		LARE_Eupithecia_abbreviata
+		LARE_Eupithecia_dodoneata
+		LARE_Eupithecia_pusillata
+		LARE_Eupithecia_actaeata
+		LARE_Eupithecia_indigata
+		LARE_Eupithecia_conterminata
+		LARE_Eupithecia_intricata
+		LARE_Eupithecia_satyrata
+		LARE_Eupithecia_cauchiata
+		LARE_Eupithecia_absinthiata
+		LARE_Eupithecia_goossensiata
+		LARE_Eupithecia_expallidata
+		LARE_Eupithecia_pernotata
+		LARE_Eupithecia_extensaria
+		LARE_Eupithecia_veratraria
+		LARE_Eupithecia_egenaria
+		LARE_Eupithecia_gelidata
+		LARE_Eupithecia_nanata
+		LARE_Eupithecia_innotata
+		LARE_Eupithecia_ochridata
+		LARE_Eupithecia_pimpinellata
+		LARE_Eupithecia_assimilata
+		LARE_Eupithecia_exiguata
+		LARE_Eupithecia_vulgata
+		LARE_Eupithecia_simpliciata
+		LARE_Eupithecia_sinuosaria
+		LARE_Eupithecia_valerianata
+		LARE_Eupithecia_thalictrata
+		LARE_Eupithecia_addictata
+		LARE_Eupithecia_selinata
+		LARE_Eupithecia_trisignaria
+		LARE_Eupithecia_distinctaria
+		LARE_Eupithecia_extraversaria
+		LARE_Eupithecia_centaureata
+		LARE_Eupithecia_immundata
+		LARE_Eupithecia_abietaria
+		LARE_Eupithecia_analoga
+		LARE_Pasiphila_rectangulata
+		LARE_Pasiphila_chloerata
+		LARE_Pasiphila_debiliata
+		LARE_Mesotype_didymata
+		LARE_Mesotype_parallelolineata
+		LARE_Perizoma_affinitata
+		LARE_Perizoma_lugdunaria
+		LARE_Perizoma_hydrata
+		LARE_Perizoma_flavofasciata
+		LARE_Perizoma_alchemillata
+		LARE_Perizoma_bifaciata
+		LARE_Perizoma_blandiata
+		LARE_Perizoma_minorata
+		LARE_Perizoma_albulata
+		LARE_Gagitodes_sagittata
+		LARE_Anticollix_sparsata
+		LARE_Odezia_atrata
+		LARE_Carsia_sororiata
+		LARE_Aplocera_plagiata
+		LARE_Aplocera_efformata
+		LARE_Aplocera_praeformata
+		LARE_Chesias_legatella
+		LARE_Chesias_rufata
+		LARE_Lithostege_griseata
+		LARE_Lithostege_farinata
+		LARE_Lobophora_halterata
+		LARE_Pterapherapteryx_sexalata
+		LARE_Nothocasis_sertata
+		LARE_Trichopteryx_polycommata
+		LARE_Trichopteryx_carpinata
+		LARE_Acasis_appensata
+		LARE_Acasis_viretata
+		ARCH_Archiearis_parthenias
+		ARCH_Archiearis_notha
+		ENNO_Abraxas_grossulariata
+		ENNO_Abraxas_sylvata
+		ENNO_Ligdia_adustata
+		ENNO_Heliomata_glarearia
+		ENNO_Lomaspilis_marginata
+		ENNO_Lomaspilis_opis
+		ENNO_Stegania_cararia
+		ENNO_Stegania_trimaculata
+		ENNO_Narraga_fasciolaria
+		ENNO_Macaria_carbonaria
+		ENNO_Macaria_wauaria
+		ENNO_Macaria_loricaria
+		ENNO_Macaria_brunneata
+		ENNO_Macaria_artesiaria
+		ENNO_Macaria_fusca
+		ENNO_Macaria_notata
+		ENNO_Macaria_alternata
+		ENNO_Macaria_signaria
+		ENNO_Macaria_liturata
+		ENNO_Chiasmia_clathrata
+		ENNO_Isturgia_arenacearia
+		ENNO_Apocheima_hispidaria
+		ENNO_Phigalia_pilosaria
+		ENNO_Hypomecis_roboraria
+		ENNO_Hypomecis_punctinalis
+		ENNO_Ematurga_atomaria
+		ENNO_Peribatodes_rhomboidaria
+		ENNO_Peribatodes_secundaria
+		ENNO_Selidosema_brunnearia
+		ENNO_Peribatodes_ilicaria
+		ENNO_Alcis_repandata
+		ENNO_Alcis_deversata
+		ENNO_Alcis_jubata
+		ENNO_Deileptenia_ribeata
+		ENNO_Agriopis_leucophaearia
+		ENNO_Agriopis_aurantiaria
+		ENNO_Agriopis_marginaria
+		ENNO_Paradarisa_consonaria
+		ENNO_Arichanna_melanaria
+		ENNO_Bupalus_piniaria
+		ENNO_Fagivorina_arenaria
+		ENNO_Biston_strataria
+		ENNO_Biston_betularia
+		ENNO_Erannis_defoliaria
+		ENNO_Lycia_hirtaria
+		ENNO_Lycia_lapponaria
+		ENNO_Lycia_pomonaria
+		ENNO_Lycia_zonaria
+		ENNO_Artiora_evonymaria
+		ENNO_Paraectropis_similaria
+		ENNO_Ectropis_crepuscularia
+		ENNO_Aethalura_punctulata
+		ENNO_Ascotis_selenaria
+		ENNO_Cleora_cinctaria
+		ENNO_Cabera_pusaria
+		ENNO_Cabera_leptographa
+		ENNO_Cabera_exanthemata
+		ENNO_Plagodis_pulveraria
+		ENNO_Plagodis_dolabraria
+		ENNO_Epione_repandaria
+		ENNO_Epione_vespertaria
+		ENNO_Pseudopanthera_macularia
+		ENNO_Cepphis_advenaria
+		ENNO_Apeira_syringaria
+		ENNO_Selenia_dentaria
+		ENNO_Selenia_tetralunaria
+		ENNO_Selenia_lunularia
+		ENNO_Petrophora_chlorosata
+		ENNO_Pachycnemia_hippocastanaria
+		ENNO_Synopsia_sociaria
+		ENNO_Hypoxystis_pluviaria
+		ENNO_Angerona_prunaria
+		ENNO_Chariaspilates_formosaria
+		ENNO_Siona_lineata
+		ENNO_Aspitates_gilvaria
+		ENNO_Aspitates_ochrearia
+		ENNO_Dyscia_fagaria
+		ENNO_Perconia_strigillaria
+		ENNO_Cleorodes_lichenaria
+		ENNO_Gnophos_obfuscata
+		ENNO_Charissa_obscurata
+		ENNO_Charissa_ambiguata
+		ENNO_Elophos_vittaria
+		ENNO_Glacies_coracina
+		ENNO_Odontopera_bidentata
+		ENNO_Crocallis_elinguaria
+		ENNO_Opisthograptis_luteolata
+		ENNO_Epirranthis_diversata
+		ENNO_Ennomos_autumnaria
+		ENNO_Ennomos_quercinaria
+		ENNO_Ennomos_erosaria
+		ENNO_Ennomos_alniaria
+		ENNO_Ennomos_fuscantaria
+		ENNO_Ourapteryx_sambucaria
+		ENNO_Colotois_pennaria
+		ENNO_Alsophila_aescularia
+		ENNO_Campaea_margaritaria
+		ENNO_Puengeleria_capreolaria
+		ENNO_Hylaea_fasciaria
+		ENNO_Lomographa_bimaculata
+		ENNO_Lomographa_temerata
+		ENNO_Theria_rupicapraria
+		ENNO_Theria_primaria
+		ENNO_Aleucis_distinctata
+		GEOM_Pseudoterpna_pruinata
+		GEOM_Geometra_papilionaria
+		GEOM_Comibaena_bajularia
+		GEOM_Thetidia_smaragdaria
+		GEOM_Hemithea_aestivaria
+		GEOM_Phaiogramma_etruscaria
+		GEOM_Chlorissa_viridata
+		GEOM_Chlorissa_cloraria
+		GEOM_Thalera_fimbrialis
+		GEOM_Hemistola_chrysoprasaria
+		GEOM_Jodis_lactearia
+		GEOM_Jodis_putata
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	STER_Cyclophora_pendularia,
+		2	STER_Cyclophora_albipunctata,
+		3	STER_Cyclophora_annularia,
+		4	STER_Cyclophora_porata,
+		5	STER_Cyclophora_linearia,
+		6	STER_Cyclophora_quercimontaria,
+		7	STER_Cyclophora_punctaria,
+		8	STER_Cyclophora_pupillaria,
+		9	STER_Timandra_comae,
+		10	STER_Timandra_griseata,
+		11	STER_Lythria_purpuraria,
+		12	STER_Lythria_cruentaria,
+		13	STER_Idaea_serpentata,
+		14	STER_Idaea_ochrata,
+		15	STER_Idaea_muricata,
+		16	STER_Idaea_sylvestraria,
+		17	STER_Idaea_seriata,
+		18	STER_Idaea_emarginata,
+		19	STER_Idaea_aversata,
+		20	STER_Idaea_straminata,
+		21	STER_Idaea_deversaria,
+		22	STER_Idaea_subsericeata,
+		23	STER_Idaea_pallidata,
+		24	STER_Idaea_rusticata,
+		25	STER_Idaea_dilutaria,
+		26	STER_Idaea_fuscovenosa,
+		27	STER_Idaea_humiliata,
+		28	STER_Idaea_dimidiata,
+		29	STER_Idaea_trigeminata,
+		30	STER_Idaea_biselata,
+		31	STER_Scopula_immorata,
+		32	STER_Scopula_virgulata,
+		33	STER_Scopula_corrivalaria,
+		34	STER_Scopula_caricaria,
+		35	STER_Scopula_nemoraria,
+		36	STER_Scopula_umbelaria,
+		37	STER_Scopula_nigropunctata,
+		38	STER_Scopula_rubiginata,
+		39	STER_Scopula_incanata,
+		40	STER_Scopula_marginepunctata,
+		41	STER_Scopula_floslactata,
+		42	STER_Scopula_imitaria,
+		43	STER_Scopula_frigidaria,
+		44	STER_Scopula_ternata,
+		45	STER_Scopula_emutaria,
+		46	STER_Scopula_immutata,
+		47	STER_Scopula_ornata,
+		48	STER_Scopula_decorata,
+		49	STER_Rhodostrophia_vibicaria,
+		50	LARE_Phibalapteryx_virgata,
+		51	LARE_Catarhoe_rubidata,
+		52	LARE_Catarhoe_cuculata,
+		53	LARE_Costaconvexa_polygrammata,
+		54	LARE_Epirrhoe_hastulata,
+		55	LARE_Epirrhoe_pupillata,
+		56	LARE_Epirrhoe_tristata,
+		57	LARE_Epirrhoe_alternata,
+		58	LARE_Epirrhoe_tartuensis,
+		59	LARE_Epirrhoe_rivata,
+		60	LARE_Epirrhoe_galiata,
+		61	LARE_Psychophora_sabini,
+		62	LARE_Xanthorhoe_annotinata,
+		63	LARE_Xanthorhoe_montanata,
+		64	LARE_Xanthorhoe_decoloraria,
+		65	LARE_Xanthorhoe_biriviata,
+		66	LARE_Xanthorhoe_designata,
+		67	LARE_Xanthorhoe_fluctuata,
+		68	LARE_Xanthorhoe_spadicearia,
+		69	LARE_Xanthorhoe_ferrugata,
+		70	LARE_Xanthorhoe_abrasaria,
+		71	LARE_Orthonama_vittata,
+		72	LARE_Xanthorhoe_quadrifasiata,
+		73	LARE_Camptogramma_bilineata,
+		74	LARE_Euphyia_biangulata,
+		75	LARE_Euphyia_unangulata,
+		76	LARE_Scotopteryx_coarctaria,
+		77	LARE_Scotopteryx_mucronata,
+		78	LARE_Scotopteryx_luridata,
+		79	LARE_Scotopteryx_moeniata,
+		80	LARE_Scotopteryx_bipunctaria,
+		81	LARE_Scotopteryx_chenopodiata,
+		82	LARE_Earophila_badiata,
+		83	LARE_Anticlea_derivata,
+		84	LARE_Mesoleuca_albicillata,
+		85	LARE_Entephria_polata,
+		86	LARE_Entephria_byssata,
+		87	LARE_Entephria_nobiliaria,
+		88	LARE_Entephria_caesiata,
+		89	LARE_Entephria_flavicinctata,
+		90	LARE_Larentia_clavaria,
+		91	LARE_Spargania_luctuata,
+		92	LARE_Hydriomena_furcata,
+		93	LARE_Hydriomena_impluviata,
+		94	LARE_Hydriomena_ruberata,
+		95	LARE_Pelurga_comitata,
+		96	LARE_Cosmorhoe_ocellata,
+		97	LARE_Lampropteryx_suffumata,
+		98	LARE_Lampropteryx_otregiata,
+		99	LARE_Colostygia_aptata,
+		100	LARE_Colostygia_olivata,
+		101	LARE_Colostygia_turbata,
+		102	LARE_Colostygia_pectinataria,
+		103	LARE_Heterothera_serraria,
+		104	LARE_Pennithera_firmata,
+		105	LARE_Thera_obeliscata,
+		106	LARE_Thera_variata,
+		107	LARE_Thera_britannica,
+		108	LARE_Thera_cognata,
+		109	LARE_Thera_juniperata,
+		110	LARE_Dysstroma_citrata,
+		111	LARE_Dysstroma_infuscata,
+		112	LARE_Dysstroma_latefasciata,
+		113	LARE_Dysstroma_truncata,
+		114	LARE_Plemyria_rubiginata,
+		115	LARE_Chloroclysta_siterata,
+		116	LARE_Chloroclysta_miata,
+		117	LARE_Cidaria_fulvata,
+		118	LARE_Electrophaes_corylata,
+		119	LARE_Eulithis_prunata,
+		120	LARE_Eulithis_populata,
+		121	LARE_Eulithis_testata,
+		122	LARE_Eulithis_mellinata,
+		123	LARE_Eulithis_pyropata,
+		124	LARE_Gandaritis_pyraliata,
+		125	LARE_Ecliptopera_silaceata,
+		126	LARE_Ecliptopera_capitata,
+		127	LARE_Eustroma_reticulata,
+		128	LARE_Malacodea_regelaria,
+		129	LARE_Operophtera_brumata,
+		130	LARE_Operophtera_fagata,
+		131	LARE_Epirrita_dilutata,
+		132	LARE_Epirrita_christyi,
+		133	LARE_Epirrita_autumnata,
+		134	LARE_Baptria_tibiale,
+		135	LARE_Philereme_vetulata,
+		136	LARE_Philereme_transversata,
+		137	LARE_Triphosa_dubitata,
+		138	LARE_Rheumaptera_hastata,
+		139	LARE_Rheumaptera_subhastata,
+		140	LARE_Rheumaptera_undulata,
+		141	LARE_Rheumaptera_cervinalis,
+		142	LARE_Pareulype_berberata,
+		143	LARE_Asthena_albulata,
+		144	LARE_Asthena_anseraria,
+		145	LARE_Euchoeca_nebulata,
+		146	LARE_Hydrelia_sylvata,
+		147	LARE_Venusia_blomeri,
+		148	LARE_Venusia_cambrica,
+		149	LARE_Hydrelia_flammeolaria,
+		150	LARE_Coenocalpe_lapidata,
+		151	LARE_Horisme_vitalbata,
+		152	LARE_Horisme_tersata,
+		153	LARE_Horisme_radicaria,
+		154	LARE_Horisme_aquata,
+		155	LARE_Horisme_corticata,
+		156	LARE_Horisme_aemulata,
+		157	LARE_Melanthia_procellata,
+		158	LARE_Martania_taeniata,
+		159	LARE_Gymnoscelis_rufifasciata,
+		160	LARE_Chloroclystis_v-ata,
+		161	LARE_Eupithecia_haworthiata,
+		162	LARE_Eupithecia_tenuiata,
+		163	LARE_Eupithecia_inturbata,
+		164	LARE_Eupithecia_tripunctaria,
+		165	LARE_Eupithecia_lariciata,
+		166	LARE_Eupithecia_virgaureata,
+		167	LARE_Eupithecia_groenblomi,
+		168	LARE_Eupithecia_tantillaria,
+		169	LARE_Eupithecia_lanceata,
+		170	LARE_Eupithecia_subumbrata,
+		171	LARE_Eupithecia_orphnata,
+		172	LARE_Eupithecia_subfuscata,
+		173	LARE_Eupithecia_denotata,
+		174	LARE_Eupithecia_millefoliata,
+		175	LARE_Eupithecia_icterata,
+		176	LARE_Eupithecia_succenturiata,
+		177	LARE_Eupithecia_linariata,
+		178	LARE_Eupithecia_pulchellata,
+		179	LARE_Eupithecia_pyreneata,
+		180	LARE_Eupithecia_plumbeolata,
+		181	LARE_Eupithecia_pygmaeata,
+		182	LARE_Eupithecia_fennoscandica,
+		183	LARE_Eupithecia_venosata,
+		184	LARE_Eupithecia_irriguata,
+		185	LARE_Eupithecia_insigniata,
+		186	LARE_Eupithecia_abbreviata,
+		187	LARE_Eupithecia_dodoneata,
+		188	LARE_Eupithecia_pusillata,
+		189	LARE_Eupithecia_actaeata,
+		190	LARE_Eupithecia_indigata,
+		191	LARE_Eupithecia_conterminata,
+		192	LARE_Eupithecia_intricata,
+		193	LARE_Eupithecia_satyrata,
+		194	LARE_Eupithecia_cauchiata,
+		195	LARE_Eupithecia_absinthiata,
+		196	LARE_Eupithecia_goossensiata,
+		197	LARE_Eupithecia_expallidata,
+		198	LARE_Eupithecia_pernotata,
+		199	LARE_Eupithecia_extensaria,
+		200	LARE_Eupithecia_veratraria,
+		201	LARE_Eupithecia_egenaria,
+		202	LARE_Eupithecia_gelidata,
+		203	LARE_Eupithecia_nanata,
+		204	LARE_Eupithecia_innotata,
+		205	LARE_Eupithecia_ochridata,
+		206	LARE_Eupithecia_pimpinellata,
+		207	LARE_Eupithecia_assimilata,
+		208	LARE_Eupithecia_exiguata,
+		209	LARE_Eupithecia_vulgata,
+		210	LARE_Eupithecia_simpliciata,
+		211	LARE_Eupithecia_sinuosaria,
+		212	LARE_Eupithecia_valerianata,
+		213	LARE_Eupithecia_thalictrata,
+		214	LARE_Eupithecia_addictata,
+		215	LARE_Eupithecia_selinata,
+		216	LARE_Eupithecia_trisignaria,
+		217	LARE_Eupithecia_distinctaria,
+		218	LARE_Eupithecia_extraversaria,
+		219	LARE_Eupithecia_centaureata,
+		220	LARE_Eupithecia_immundata,
+		221	LARE_Eupithecia_abietaria,
+		222	LARE_Eupithecia_analoga,
+		223	LARE_Pasiphila_rectangulata,
+		224	LARE_Pasiphila_chloerata,
+		225	LARE_Pasiphila_debiliata,
+		226	LARE_Mesotype_didymata,
+		227	LARE_Mesotype_parallelolineata,
+		228	LARE_Perizoma_affinitata,
+		229	LARE_Perizoma_lugdunaria,
+		230	LARE_Perizoma_hydrata,
+		231	LARE_Perizoma_flavofasciata,
+		232	LARE_Perizoma_alchemillata,
+		233	LARE_Perizoma_bifaciata,
+		234	LARE_Perizoma_blandiata,
+		235	LARE_Perizoma_minorata,
+		236	LARE_Perizoma_albulata,
+		237	LARE_Gagitodes_sagittata,
+		238	LARE_Anticollix_sparsata,
+		239	LARE_Odezia_atrata,
+		240	LARE_Carsia_sororiata,
+		241	LARE_Aplocera_plagiata,
+		242	LARE_Aplocera_efformata,
+		243	LARE_Aplocera_praeformata,
+		244	LARE_Chesias_legatella,
+		245	LARE_Chesias_rufata,
+		246	LARE_Lithostege_griseata,
+		247	LARE_Lithostege_farinata,
+		248	LARE_Lobophora_halterata,
+		249	LARE_Pterapherapteryx_sexalata,
+		250	LARE_Nothocasis_sertata,
+		251	LARE_Trichopteryx_polycommata,
+		252	LARE_Trichopteryx_carpinata,
+		253	LARE_Acasis_appensata,
+		254	LARE_Acasis_viretata,
+		255	ARCH_Archiearis_parthenias,
+		256	ARCH_Archiearis_notha,
+		257	ENNO_Abraxas_grossulariata,
+		258	ENNO_Abraxas_sylvata,
+		259	ENNO_Ligdia_adustata,
+		260	ENNO_Heliomata_glarearia,
+		261	ENNO_Lomaspilis_marginata,
+		262	ENNO_Lomaspilis_opis,
+		263	ENNO_Stegania_cararia,
+		264	ENNO_Stegania_trimaculata,
+		265	ENNO_Narraga_fasciolaria,
+		266	ENNO_Macaria_carbonaria,
+		267	ENNO_Macaria_wauaria,
+		268	ENNO_Macaria_loricaria,
+		269	ENNO_Macaria_brunneata,
+		270	ENNO_Macaria_artesiaria,
+		271	ENNO_Macaria_fusca,
+		272	ENNO_Macaria_notata,
+		273	ENNO_Macaria_alternata,
+		274	ENNO_Macaria_signaria,
+		275	ENNO_Macaria_liturata,
+		276	ENNO_Chiasmia_clathrata,
+		277	ENNO_Isturgia_arenacearia,
+		278	ENNO_Apocheima_hispidaria,
+		279	ENNO_Phigalia_pilosaria,
+		280	ENNO_Hypomecis_roboraria,
+		281	ENNO_Hypomecis_punctinalis,
+		282	ENNO_Ematurga_atomaria,
+		283	ENNO_Peribatodes_rhomboidaria,
+		284	ENNO_Peribatodes_secundaria,
+		285	ENNO_Selidosema_brunnearia,
+		286	ENNO_Peribatodes_ilicaria,
+		287	ENNO_Alcis_repandata,
+		288	ENNO_Alcis_deversata,
+		289	ENNO_Alcis_jubata,
+		290	ENNO_Deileptenia_ribeata,
+		291	ENNO_Agriopis_leucophaearia,
+		292	ENNO_Agriopis_aurantiaria,
+		293	ENNO_Agriopis_marginaria,
+		294	ENNO_Paradarisa_consonaria,
+		295	ENNO_Arichanna_melanaria,
+		296	ENNO_Bupalus_piniaria,
+		297	ENNO_Fagivorina_arenaria,
+		298	ENNO_Biston_strataria,
+		299	ENNO_Biston_betularia,
+		300	ENNO_Erannis_defoliaria,
+		301	ENNO_Lycia_hirtaria,
+		302	ENNO_Lycia_lapponaria,
+		303	ENNO_Lycia_pomonaria,
+		304	ENNO_Lycia_zonaria,
+		305	ENNO_Artiora_evonymaria,
+		306	ENNO_Paraectropis_similaria,
+		307	ENNO_Ectropis_crepuscularia,
+		308	ENNO_Aethalura_punctulata,
+		309	ENNO_Ascotis_selenaria,
+		310	ENNO_Cleora_cinctaria,
+		311	ENNO_Cabera_pusaria,
+		312	ENNO_Cabera_leptographa,
+		313	ENNO_Cabera_exanthemata,
+		314	ENNO_Plagodis_pulveraria,
+		315	ENNO_Plagodis_dolabraria,
+		316	ENNO_Epione_repandaria,
+		317	ENNO_Epione_vespertaria,
+		318	ENNO_Pseudopanthera_macularia,
+		319	ENNO_Cepphis_advenaria,
+		320	ENNO_Apeira_syringaria,
+		321	ENNO_Selenia_dentaria,
+		322	ENNO_Selenia_tetralunaria,
+		323	ENNO_Selenia_lunularia,
+		324	ENNO_Petrophora_chlorosata,
+		325	ENNO_Pachycnemia_hippocastanaria,
+		326	ENNO_Synopsia_sociaria,
+		327	ENNO_Hypoxystis_pluviaria,
+		328	ENNO_Angerona_prunaria,
+		329	ENNO_Chariaspilates_formosaria,
+		330	ENNO_Siona_lineata,
+		331	ENNO_Aspitates_gilvaria,
+		332	ENNO_Aspitates_ochrearia,
+		333	ENNO_Dyscia_fagaria,
+		334	ENNO_Perconia_strigillaria,
+		335	ENNO_Cleorodes_lichenaria,
+		336	ENNO_Gnophos_obfuscata,
+		337	ENNO_Charissa_obscurata,
+		338	ENNO_Charissa_ambiguata,
+		339	ENNO_Elophos_vittaria,
+		340	ENNO_Glacies_coracina,
+		341	ENNO_Odontopera_bidentata,
+		342	ENNO_Crocallis_elinguaria,
+		343	ENNO_Opisthograptis_luteolata,
+		344	ENNO_Epirranthis_diversata,
+		345	ENNO_Ennomos_autumnaria,
+		346	ENNO_Ennomos_quercinaria,
+		347	ENNO_Ennomos_erosaria,
+		348	ENNO_Ennomos_alniaria,
+		349	ENNO_Ennomos_fuscantaria,
+		350	ENNO_Ourapteryx_sambucaria,
+		351	ENNO_Colotois_pennaria,
+		352	ENNO_Alsophila_aescularia,
+		353	ENNO_Campaea_margaritaria,
+		354	ENNO_Puengeleria_capreolaria,
+		355	ENNO_Hylaea_fasciaria,
+		356	ENNO_Lomographa_bimaculata,
+		357	ENNO_Lomographa_temerata,
+		358	ENNO_Theria_rupicapraria,
+		359	ENNO_Theria_primaria,
+		360	ENNO_Aleucis_distinctata,
+		361	GEOM_Pseudoterpna_pruinata,
+		362	GEOM_Geometra_papilionaria,
+		363	GEOM_Comibaena_bajularia,
+		364	GEOM_Thetidia_smaragdaria,
+		365	GEOM_Hemithea_aestivaria,
+		366	GEOM_Phaiogramma_etruscaria,
+		367	GEOM_Chlorissa_viridata,
+		368	GEOM_Chlorissa_cloraria,
+		369	GEOM_Thalera_fimbrialis,
+		370	GEOM_Hemistola_chrysoprasaria,
+		371	GEOM_Jodis_lactearia,
+		372	GEOM_Jodis_putata
+	;
+	TREE * UNTITLED = [&R] (((((((1:3.327444807,2:3.327444807):0.9164267251,((3:3.237996453,4:3.237996453):0.5418580374,5:3.77985449):0.4640170417):0.4421845127,(6:2.155915481,7:2.155915481):2.530140564):1.138758546,8:5.824814591):46.95015573,((9:2.378077995,10:2.378077995):42.86615832,(11:15.9148056,12:15.9148056):29.32943071):7.53073401):23.36375935,(((((((13:18.55553367,14:18.55553367):1.344296232,(15:10.58785052,16:10.58785052):9.311979387):3.417048369,((17:17.23526838,(18:11.68471392,((19:8.406483379,20:8.406483379):1.241828584,21:9.648311963):2.036401956):5.550554461):4.510738613,(22:11.62647339,23:11.62647339):10.1195336):1.570871283):1.278184735,(24:17.4706599,(25:8.961585831,(26:7.065224205,27:7.065224205):1.896361626):8.509074068):7.124403112):6.476300503,(28:15.44278766,(29:10.76758047,30:10.76758047):4.675207194):15.62857585):29.62230977,((((31:25.05990421,32:25.05990421):3.201714184,(33:23.18738278,((34:14.82176585,35:14.82176585):2.044931997,(36:9.750419449,37:9.750419449):7.116278398):6.320684935):5.074235612):6.340157743,(38:28.11967954,(((39:6.99537461,40:6.99537461):9.677611539,41:16.67298615):1.379419413,((42:13.23674719,((43:4.520468345,44:4.520468345):6.486413728,45:11.00688207):2.229865116):2.132344682,46:15.36909187):2.683313691):10.06727398):6.482096596):9.344001419,(47:28.98015568,48:28.98015568):14.96562188):16.74789573):8.745249946,49:69.43892323):6.699806437):7.043988086,(((((((((((50:25.5160061,((51:14.09087608,52:14.09087608):5.61226621,(53:17.67698482,((54:12.02647258,(55:9.692052242,56:9.692052242):2.334420336):1.047664603,((57:3.816171574,(58:0.2024663931,59:0.2024663931):3.613705181):7.353146134,60:11.16931771):1.904819472):4.602847638):2.026157477):5.812863801):2.988610251,(((((((61:5.328876631,62:5.328876631):2.296757681,63:7.625634312):1.636887838,64:9.26252215):3.76747498,(65:11.57569391,(66:5.870867062,67:5.870867062):5.704826845):1.454303223):2.804708089,(68:5.21775141,69:5.21775141):10.61695381):3.011749521,70:18.84645474):5.095490859,(71:21.73891991,(72:13.59856651,73:13.59856651):8.140353404):2.203025686):4.562670747):5.605813848,(74:9.060252646,75:9.060252646):25.05017755):5.860324871,(76:16.68975669,(((77:2.032086679,78:2.032086679):9.835351311,79:11.86743799):2.04255263,(80:8.16800406,81:8.16800406):5.741986559):2.779766067):23.28099838):3.787028726,(((82:22.27111089,83:22.27111089):4.84905142,((84:16.81750388,((85:4.037834703,86:4.037834703):4.82043965,((87:5.448839932,88:5.448839932):0.5510757881,89:5.99991572):2.858358633):7.959229526):5.740730299,90:22.55823418):4.561928132):6.26546489,(91:29.05114788,(92:12.80375732,(93:3.837482294,94:3.837482294):8.966275026):16.24739056):4.33447932):10.37215659):1.526032046,(95:40.44499866,((96:25.4289669,(97:7.782712751,98:7.782712751):17.64625415):8.900689385,(((99:4.777726182,100:4.777726182):5.715665021,101:10.4933912):3.719995177,102:14.21338638):20.1162699):6.115342372):4.83881718):3.065833512,(((((((103:12.65856678,104:12.65856678):2.612169959,(((105:2.319147923,106:2.319147923):2.183107285,107:4.502255208):4.84921812,(108:7.883320969,109:7.883320969):1.468152359):5.919263411):7.171009652,(110:6.69313927,((111:1.12451874,112:1.12451874):2.844545045,113:3.969063785):2.724075485):15.74860712):3.564779306,((114:12.36368151,(115:2.046150011,116:2.046150011):10.31753149):5.277880534,117:17.64156204):8.364963657):2.845852316,118:28.85237801):5.328209804,(((((119:8.263201768,120:8.263201768):0.7603738104,121:9.023575578):0.4996667541,(122:7.455776612,123:7.455776612):2.06746572):10.37764874,124:19.90089108):5.809254901,(125:8.061357531,126:8.061357531):17.64878845):8.470441841):1.579038332,127:35.75962615):12.5900232):6.45884063,((((128:29.69445364,((129:5.074099582,130:5.074099582):15.87433228,((131:2.051630088,132:2.051630088):2.149378715,133:4.201008803):16.74742306):8.746021782):6.931439146,134:36.62589279):10.08942827,((((135:5.96566849,136:5.96566849):9.567727288,137:15.53339578):8.665396471,(((138:3.627544217,139:3.627544217):2.96998576,140:6.597529977):2.627056959,141:9.224586936):14.97420531):7.880434867,142:32.07922712):14.63609395):6.765303095,(((143:17.83170728,144:17.83170728):13.88369902,((145:21.30024144,(146:16.20992904,(147:10.27106343,148:10.27106343):5.938865614):5.090312401):1.904582017,149:23.20482346):8.510582834):20.7348212,(((((150:23.79581052,(((151:8.80146321,((152:3.136037898,153:3.136037898):4.15423093,154:7.290268828):1.511194383):3.311734931,155:12.11319814):5.671610069,156:17.78480821):6.01100231):10.58316743,157:34.37897795):7.366636116,158:41.74561407):5.757618179,(((159:24.06461647,160:24.06461647):10.11898191,((161:22.77685601,(((((((162:13.46681277,(163:12.58625573,(((((164:5.136875807,165:5.136875807):1.513729319,(166:3.313036431,167:3.313036431):3.337568695):3.059675699,(168:8.430298305,169:8.430298305):1.279982519):0.6388753054,((170:2.309859505,171:2.309859505):4.953343043,172:7.263202548):3.085953582):0.5425133077,(173:8.259265934,(174:5.731031131,(175:2.598541498,176:2.598541498):3.132489633):2.528234803):2.632403504):1.694586291):0.8805570431):2.442897121,((((177:2.627878191,(178:1.307158765,179:1.307158765):1.320719426):7.424159262,180:10.05203745):1.865590671,(181:4.400661655,182:4.400661655):7.516966469):0.900814195,183:12.81844232):3.091267574):0.606764087,(184:10.06296747,185:10.06296747):6.45350651):0.4932831216,(((186:4.266887048,187:4.266887048):2.444595564,188:6.711482612):9.185503169,((((189:13.46823606,((((190:8.724503654,191:8.724503654):2.092659095,192:10.81716275):0.9946757052,(((193:0.991442035,194:0.991442035):5.715045432,((195:0.5681691738,196:0.5681691738):4.005497533,197:4.573666707):2.13282076):1.95353716,(198:5.314917616,199:5.314917616):3.34510701):3.151813827):0.7875740495,200:12.5994125):0.8688235575):0.6858825519,((201:7.581935394,((202:2.430120644,203:2.430120644):1.603118145,(204:2.576060253,205:2.576060253):1.457178536):3.548696604):1.051103132,206:8.633038525):5.521080087):0.568554451,((207:9.36781376,208:9.36781376):0.9014285721,209:10.26924233):4.453430732):0.4438342503,((210:7.494012454,211:7.494012454):5.182921753,212:12.67693421):2.489573107):0.730478467):1.11277132):1.006302616,(213:7.576808756,214:7.576808756):10.43925096):0.5170574032,((215:14.40387492,216:14.40387492):2.311818415,(217:8.553485362,(218:6.920266822,219:6.920266822):1.63321854):8.162207973):1.817423786):0.3744884084,220:18.90760553):3.869250482):6.410501758,(221:14.32229889,222:14.32229889):14.86505888):4.996240611):2.822454217,((223:6.477293825,224:6.477293825):1.196048462,225:7.673342287):29.33271031):10.49717965):2.340579383,(((226:19.97269431,227:19.97269431):4.152091892,((((228:2.598551254,229:2.598551254):0.4172212668,230:3.015772521):7.374128769,231:10.38990129):5.212798792,(232:13.1439576,((233:7.905834507,234:7.905834507):1.125200316,(235:5.567426995,236:5.567426995):3.463607828):4.112922781):2.458742478):8.522086121):7.795665346,237:31.92045155):17.92336008):2.606415864):1.030396665):1.327865823):1.837116344,238:56.64560632):7.003896489,(((239:26.51729871,(240:18.69362951,((241:3.988749827,242:3.988749827):5.792875279,243:9.781625105):8.912004404):7.823669199):4.999149661,((244:5.797513049,245:5.797513049):17.28535254,(246:4.410632491,247:4.410632491):18.6722331):8.433582779):25.79663625,((248:15.50394853,249:15.50394853):29.22990519,((250:21.39272325,(251:11.50272817,252:11.50272817):9.889995078):9.04599504,(253:2.419635338,254:2.419635338):28.01908295):14.29513544):12.57923089):6.336418195):17.29415135,((255:15.85790634,256:15.85790634):54.52844706,(((((((((((257:12.48668628,258:12.48668628):22.19940099,259:34.68608727):7.869760312,260:42.55584758):4.203032473,(((261:4.452906765,262:4.452906765):12.03959301,(263:10.65508567,264:10.65508567):5.83741411):28.86999119,(((((265:14.15649561,266:14.15649561):3.817330216,((((267:9.172403054,268:9.172403054):1.495838113,269:10.66824117):0.642546911,270:11.31078808):0.6787945685,271:11.98958265):5.984243179):3.146303883,((272:3.45811041,273:3.45811041):1.970633101,(274:4.169845914,275:4.169845914):1.258897597):15.6913862):8.534517845,276:29.65464755):3.999612675,277:33.65426023):11.70823074):1.396389087):2.655761849,(((((((((278:16.69806621,279:16.69806621):11.80114413,(280:17.54488009,(281:8.108396536,282:8.108396536):9.436483553):10.95433026):3.200042493,(((((283:9.74843267,284:9.74843267):4.421123137,285:14.16955581):3.851566081,286:18.02112189):6.988798282,((287:3.207179578,288:3.207179578):8.833301732,289:12.04048131):12.96943886):4.117500901,290:29.12742107):2.571831765):2.272771365,(((291:12.31862272,(292:7.042474847,293:7.042474847):5.276147871):15.17534219,294:27.4939649):4.178931613,((295:15.34758845,296:15.34758845):12.27560411,297:27.62319256):4.049703957):2.299127686):1.884218733,((298:9.632019805,299:9.632019805):16.40683825,300:26.03885805):9.817384882):1.929977826,((301:7.123778297,((302:2.336018466,303:2.336018466):3.551808912,304:5.887827378):1.235950919):20.58233866,305:27.70611696):10.0801038):1.066197907,306:38.85241867):2.11523667,(307:33.97171601,308:33.97171601):6.995939328):2.569174643,(309:25.913089,310:25.913089):17.62374098):5.877811924):5.312693164,(311:15.3048652,(312:12.41245246,313:12.41245246):2.89241274):39.42246987):2.472480084,((314:9.6583281,315:9.6583281):37.14893335,(((316:10.28552906,317:10.28552906):29.79506414,318:40.0805932):4.593342525,(319:37.98059666,(320:32.79554463,((321:9.923801838,322:9.923801838):6.288630499,323:16.21243234):16.58311229):5.185052028):6.693339069):2.133325725):10.3925537):1.085989731,(324:33.82511672,325:33.82511672):24.46068816):0.3804960982,(((((((326:22.10182601,((327:13.88668396,328:13.88668396):3.404471126,329:17.29115509):4.810670928):12.2555927,(330:27.76854669,(331:22.13915634,(332:19.49886877,333:19.49886877):2.640287573):5.629390345):6.588872027):3.298240533,(334:14.52313907,335:14.52313907):23.13252018):3.055116767,(336:34.78294757,((337:13.07423259,338:13.07423259):5.150469909,(339:9.608133929,340:9.608133929):8.61656857):16.55824507):5.927828446):6.470004134,(341:20.85191726,342:20.85191726):26.32886289):1.703366756,((343:36.21311137,344:36.21311137):8.547054878,((((345:6.539251544,346:6.539251544):8.357865057,347:14.8971166):2.005191522,(348:12.8034064,349:12.8034064):4.098901724):14.01694059,350:30.91924872):13.84091753):4.123980656):3.160883463,(351:34.03041285,(352:29.85199953,((353:13.27932786,354:13.27932786):9.139567946,355:22.41889581):7.433103722):4.178413321):18.01461752):6.621270614):1.297522715,(((356:24.89897192,357:24.89897192):7.027398681,(358:4.079748137,359:4.079748137):27.84662246):2.770851456,360:34.69722206):25.26660164):3.177386537,((361:45.74922702,(362:43.45900869,(363:15.58091025,364:15.58091025):27.87809844):2.290218331):2.880896937,(((365:15.23391527,366:15.23391527):7.365091566,((367:1.413331141,368:1.413331141):14.86971683,369:16.28304798):6.315958861):13.48161812,(370:31.27265939,(371:4.560429586,372:4.560429586):26.71222981):4.807965567):12.549499):14.51108628):7.24514317):10.55730076):2.239063596);
+END;
